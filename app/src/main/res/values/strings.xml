@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crazyshopping</string>
+    <string name="title_home">Home</string>
+    <string name="title_special">Special</string>
+    <string name="title_classification">Classification</string>
+    <string name="title_shoppingcart">Shoppingcart</string>
+    <string name="title_my">My</string>
+    <string name="word_price_brand">$元起</string>
+</resources>

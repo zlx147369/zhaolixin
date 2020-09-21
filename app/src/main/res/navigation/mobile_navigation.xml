@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.crazyshopping.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_special"
+        android:name="com.example.crazyshopping.ui.special.SpecialFragment"
+        android:label="@string/title_special"
+        tools:layout="@layout/fragment_special" />
+
+    <fragment
+        android:id="@+id/navigation_classification"
+        android:name="com.example.crazyshopping.ui.classification.ClassificationFragment"
+        android:label="@string/title_classification"
+        tools:layout="@layout/fragment_classification" />
+
+    <fragment
+        android:id="@+id/navigation_shoppingcart"
+        android:name="com.example.crazyshopping.ui."
+        android:label="@string/title_shoppingcart"
+        tools:layout="@layout/fragment_shoppingcart" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.example.crazyshopping.ui."
+        android:label="@string/title_my"
+        tools:layout="@layout/fragment_my" />
+</navigation>
